@@ -1,0 +1,67 @@
+*{  /*a todas las etiquetas*/
+   /* margin: 0;*/
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif'
+}
+
+.cuerpo {
+    background-image: url("/img/pet1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.b2 {
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+
+    color: rgb(185, 162, 91);
+}
+
+.b1 {
+    padding: 1vw 2vw;
+    background: none;
+    border: 0.5vw solid rgb(185, 162, 91);
+    border-radius: 6px;
+    color: black;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-decoration: none;
+    margin: 1vw;
+}
+
+.b1:hover:hover {
+    box-shadow: 0 0 0 5px rgb(185, 162, 91), 0 0 0 10px rgb(100, 100, 100);
+    border: 4px solid rgb(100, 100, 100);
+    transform: scale(0.1);
+    color: rgb(100, 100, 100);
+}
+
+#b3 {
+    width: 25vw;
+    font-size: 2vw;
+    font-style: oblique;
+    margin: 10vw;
+    text-align: center
+}
+
+.pie img{
+    width: 8vw;
+    position: relative;
+    bottom: 1vw;
+    padding: 2vw;
+    display: inline
+    
+    }
+
+
+.pie{font-size: 2vw;
+    display:inline;
+     bottom: 0.5vw;}
