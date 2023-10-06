@@ -1,6 +1,7 @@
-*{  /*a todas las etiquetas*/
-   /* margin: 0;*/
-    padding: 0;
+* {
+    /*a todas las etiquetas*/
+    /* margin: 0;*/
+    padding: 0px;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
@@ -16,13 +17,14 @@
 
 }
 
+
 .b2 {
     text-align: center;
     font-size: 2vw;
     font-weight: bold;
-
-    color: rgb(185, 162, 91);
+    background-color: rgb(185, 162, 91);
 }
+
 
 .b1 {
     padding: 1vw 2vw;
@@ -35,9 +37,10 @@
     transition: all 0.5s;
     text-decoration: none;
     margin: 1vw;
+    display:  inline-block;
 }
 
-.b1:hover:hover {
+.b1:hover {
     box-shadow: 0 0 0 5px rgb(185, 162, 91), 0 0 0 10px rgb(100, 100, 100);
     border: 4px solid rgb(100, 100, 100);
     transform: scale(0.1);
@@ -52,16 +55,60 @@
     text-align: center
 }
 
-.pie img{
+.pie img {
     width: 8vw;
     position: relative;
     bottom: 1vw;
     padding: 2vw;
     display: inline
+}
+
+
+.pie {
+    font-size: 2vw;
+    display: inline;
+    bottom: 0.5vw;
+}
+
+
+
+
+
+
+
+
+/* tarjeta Donaciones*/
+
+#contenedor{
+    /*height: 1200px;*/
+    display: flex;
+    flex-direction: row;   /* column , row-reverse,  col-reverse*/
+    flex-wrap: wrap;  /* nowrap wrap wrap-reverse*/
+    justify-content: space-around ; /* center flex-start flex-end space-between (entre) space-around (alrededor)*/
+    align-content: space-around;  /* center flex-end flex-start space-around space-between*/
+    align-items: center;
+}
+
+
+#tarjeta{
+    width: 250px;
+    padding: 5px;
+   /* border: 1px solid black; */
     
-    }
+    border-radius: 5px;
+    margin-top: 20px;
+
+    text-align: center;  /*Centra el texto horizontalmente */
+}
+
+.imagencard{
+    width: 40%;
+}
 
 
-.pie{font-size: 2vw;
-    display:inline;
-     bottom: 0.5vw;}
+#intro{
+    text-align: center; /* Centra el contenido de la página horizontalmente */
+    margin: 0 auto; /* Centra el cuerpo de la página en el centro del viewport */
+    max-width: 80%; /* Ancho máximo del contenido */
+    padding: 20px 20px; /* Márgenes en los lados derecho e izquierdo */
+}
