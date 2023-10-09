@@ -112,3 +112,7 @@
     max-width: 80%; /* Ancho máximo del contenido */
     padding: 20px 20px; /* Márgenes en los lados derecho e izquierdo */
 }
+
+.lista{
+    list-style-type: square;
+}

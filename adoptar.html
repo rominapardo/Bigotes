@@ -7,11 +7,22 @@
     <title>Bigotes</title>
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="shortcut icon" href="./img/cat-whiskers.png" type="image/x-icon">
+
+    <!-- Referencias locales -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+    </script>
+
+
 </head>
 
 <body class="cuerpo">
     <header class="b2">
-        <h1>Adopciones y Tránsitos</h1>
+        <!--  <h1>Adopciones y Tránsitos</h1>
 
         <nav>
             <a class="b1" href="./index.html"> Bigotes </a>
@@ -21,7 +32,7 @@
             <a class="b1" href="./QuienesSomos.html">Quienes Somos</a>
             <a class="b1" href="/Gala">Gala 2023</a>
             <a class="b1" href="/Tienda">Tienda</a>
-        </nav>
+        </nav> -->
 
     </header>
 
@@ -72,28 +83,43 @@
                 solicitud de adopción mediante el siguiente formulario.</p>
 
             <form action="" method="post" enctype="text/plain">
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                </div>
                 <br>
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" id="apellido">
+                <div class="form-group">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido">
+                </div>
                 <br>
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                    <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu email con nadie mas.</small>
+                </div>
                 <br>
-                <label for="numero">Número de celular</label>
-                <input type="number" name="numero" id="numero">
+                <div>
+                    <label for="numero">Número de celular</label>
+                    <input type="number" name="numero" id="numero">
+                </div>
                 <br>
-                <label for="genero">Genero</label>
-                <input type="radio" name="genero">Hombre
-                <input type="radio" name="genero">Mujer
-                <input type="radio" name="genero">Otro
+                <div class="form-group form-check">
+                    <label for="genero">Genero</label> <br>
+                    <input type="radio" name="genero">Hombre
+                    <input type="radio" name="genero">Mujer
+                    <input type="radio" name="genero">Otro
+                </div>
                 <br>
-                <label for="comentario">Comentarios adicionales:</label>
-                <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
+                <div>
+                    <label for="comentario">Comentarios adicionales:</label> <br>
+                    <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
+                </div>
                 <br>
-                <input type="reset" value="Borrar">
-                <input type="submit" value="Enviar">
+                <!-- <input type="reset" value="Borrar">
+                <input type="submit" value="Enviar"> -->
+                <button type="submit" class="btn btn-primary">Borrar</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
 
         </div>
@@ -104,7 +130,7 @@
 
     <footer class="pie">
 
-        <nav>
+        <!--  <nav>
 
             <a href="https://es-la.facebook.com/">
                 <img src="img/facebook.png" alt="FB">
@@ -125,9 +151,10 @@
 
         </nav>
 
-        <p>Sitio desarrollado por Grupo Bigotes</p>
+        <p>Sitio desarrollado por Grupo Bigotes</p> -->
 
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
