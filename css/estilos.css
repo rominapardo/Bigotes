@@ -23,7 +23,6 @@
     font-size: 2vw;
     font-weight: bold;
     background-color: rgb(185, 162, 91);
-    display: flex;
 }
 
 
@@ -34,19 +33,19 @@
     border-radius: 6px;
     color: black;
     font-size: 1.5vw;
-    /*cursor: pointer;
-    transition: all 0.5s;*/
+    cursor: pointer;
+    transition: all 0.5s;
     text-decoration: none;
     margin: 1vw;
     display:  inline-block;
 }
 
-.b1:hover {
+/*.b1:hover {
     box-shadow: 0 0 0 5px rgb(185, 162, 91), 0 0 0 10px rgb(100, 100, 100);
     border: 4px solid rgb(100, 100, 100);
     transform: scale(0.1);
     color: rgb(100, 100, 100);
-}
+}*/
 
 #b3 {
     width: 25vw;
