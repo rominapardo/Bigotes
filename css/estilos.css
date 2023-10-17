@@ -23,6 +23,7 @@
     font-size: 2vw;
     font-weight: bold;
     background-color: rgb(185, 162, 91);
+    display: flex;
 }
 
 
@@ -66,8 +67,9 @@
 
 .pie {
     font-size: 2vw;
-    display: inline;
+    display: flex;
     bottom: 0.5vw;
+    text-align: center;
 }
 
 

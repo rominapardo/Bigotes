@@ -8,7 +8,6 @@ let cad=`
         <a class="b1" href="./voluntariado.html">Participá</a>
         <a class="b1" href="./QuienesSomos.html">Quienes Somos</a>
         <a class="b1" href="./gala.html">Gala 2023</a>
-        <a class="b1" href="./tienda.html">Tienda</a>
     </nav>
 `
 document.querySelector("header").innerHTML=cad
