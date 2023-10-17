@@ -9,7 +9,7 @@
 }
 
 .cuerpo {
-    background-image: url("/img/pet1.png");
+    /*background-image: url("/img/pet1.png");*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -23,6 +23,7 @@
     font-size: 2vw;
     font-weight: bold;
     background-color: rgb(185, 162, 91);
+    display: flex;
 }
 
 
@@ -66,8 +67,9 @@
 
 .pie {
     font-size: 2vw;
-    display: inline;
+    display: flex;
     bottom: 0.5vw;
+    text-align: center;
 }
 
 
@@ -115,4 +117,29 @@
 
 .lista{
     list-style-type: square;
+}
+
+
+
+/* tarjeta de adopcion*/
+#cardAdop{
+    width: 250px;
+    padding: 0px;
+    border: 1px solid black;
+    
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.imagencardAdop{
+    width: 100%;
+}
+
+#cardAdop :hover{
+    animation: pulse;   
+    animation-duration: 4s;
+}
+
+#formularioAdop{
+    padding: 50px;
 }
