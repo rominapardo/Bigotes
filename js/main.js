@@ -1,14 +1,15 @@
 let cad=`
     <h1>Adopciones y Tránsitos</h1>
-
-    <nav>
-        <a class="b1" href="./index.html"> Bigotes </a>
-        <a class="b1" href="./adoptar.html">Adoptá</a>
-        <a class="b1" href="./donacion.html">Doná</a>
-        <a class="b1" href="./voluntariado.html">Participá</a>
-        <a class="b1" href="./QuienesSomos.html">Quienes Somos</a>
-        <a class="b1" href="./gala.html">Gala 2023</a>
-    </nav>
+    <div class="etiquetas">
+        <nav>
+            <a class="b1" href="./index.html"> Bigotes </a>
+            <a class="b1" href="./adoptar.html">Adoptá</a>
+            <a class="b1" href="./donacion.html">Doná</a>
+            <a class="b1" href="./voluntariado.html">Participá</a>
+            <a class="b1" href="./QuienesSomos.html">Quienes Somos</a>
+            <a class="b1" href="./gala.html">Gala 2023</a>
+        </nav>
+    </div>
 `
 document.querySelector("header").innerHTML=cad
 

@@ -24,8 +24,6 @@
     font-weight: bold;
     background-color: rgb(185, 162, 91);
     display: flex;
-   
-    
 }
 
 
@@ -36,8 +34,8 @@
     border-radius: 6px;
     color: black;
     font-size: 1.5vw;
-    cursor: pointer;
-    transition: all 0.5s;
+    /*cursor: pointer;
+    transition: all 0.5s;*/
     text-decoration: none;
     margin: 1vw;
     display:  inline-block;
@@ -146,4 +144,14 @@
 
 #formularioAdop{
     padding: 50px;
+}
+
+
+.etiquetas{
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: wrap;  
+    justify-content: space-around ; 
+    align-content: space-around;  
+    align-items: center;
 }
