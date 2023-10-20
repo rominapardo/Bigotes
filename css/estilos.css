@@ -264,7 +264,7 @@ form{
     color: red;
 }
 /* alertas validacion*/
-=======
+
 .row::after {
     content: "";
     clear: both;
