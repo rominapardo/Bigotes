@@ -21,7 +21,7 @@ body::-webkit-scrollbar-thumb{
 
 .cuerpo {
 
-    background-image: url("/img/1269810-3-.jpg");
+    background-image: url("../img/1269810-3-.jpg");
 
     background-repeat: no-repeat;
     background-attachment: fixed;
