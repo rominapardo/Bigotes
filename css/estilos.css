@@ -32,19 +32,19 @@ body::-webkit-scrollbar-thumb{
 
 .b2 {
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     font-weight: bold;
     background-color: rgba(185, 162, 91, 0.9);
 }
 
 
 .b1 {
-    padding: 1vw 1vw;
+    padding: 0.05vw 0.5vw;
     background: none;
     border: 0.5vw /*solid*/ rgba(185, 162, 91, 0.9);
     border-radius: 6px;
     color: black;
-    font-size: 1.5vw;
+    font-size: 2vw;
     cursor: pointer;
     transition: all 0.5s;
     text-decoration: none;
@@ -69,7 +69,7 @@ body::-webkit-scrollbar-thumb{
     text-align: center
 }
 
-.b4{font-size: 1.25vw;}
+.b4{font-size: 1.75vw;}
 
 .pie img {
     width: 8vw;

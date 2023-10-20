@@ -18,11 +18,11 @@ document.querySelector("header").innerHTML=cad
 cad=`
     <nav>
 
-        <a href="https://es-la.facebook.com/">
+        <a href="https://www.facebook.com/rescatandobigotes/?locale=es_LA">
             <img src="img/IconFace.png" alt="FB">
 
         </a>
-        <a href="https://www.instagram.com/">
+        <a href="https://www.instagram.com/rescatando_bigotes/">
             <img src="img/IconInstagram.png" alt="IG">
 
         </a>
