@@ -213,16 +213,14 @@ input, textarea, button, select{
     text-align: center ;
 }
 
-.caja h2{
+.caja h2, .caja h1{
     font-size: 200%;
     text-align: center;
 }
-.caja p{
+.caja p, .caja h3, .caja ul{
     font-size: 150%;
 }
-.caja ul{
-    font-size: 150%;
-}
+
 .caja small{
     text-align: center;
     max-width: 20%;
@@ -264,7 +262,7 @@ form{
     color: red;
 }
 /* alertas validacion*/
-=======
+
 .row::after {
     content: "";
     clear: both;
