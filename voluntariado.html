@@ -17,40 +17,97 @@
 
 
     <main>
+        <section class="flex-container">
+            <div class="caja">
+                <h2>Podés ser parte del cambio!</h2>
 
-        <h2>Podés ser parte del cambio!</h2>
+                <p>Voluntario: Que nace de la voluntad, y no por fuerza o necesidad extrañas a aquella. Que se hace por
+                    espontánea voluntad y no por obligación o deber.</p>
 
-        <p>Voluntario: Que nace de la voluntad, y no por fuerza o necesidad extrañas a aquella. Que se hace por
-            espontánea voluntad y no por obligación o deber.</p>
+                <p>Para nosotros es algo más, ser voluntario es dar toda nuestra fortaleza, ánimo, la voluntad; pero más que
+                    eso, es un estilo de vida.</p>
 
-        <p>Para nosotros es algo más, ser voluntario es dar toda nuestra fortaleza, ánimo, la voluntad; pero más que
-            eso, es un estilo de vida.</p>
-
-        <p>Ésta es también tu oportunidad de comenzar a vivir ésta experiencia inigualable que es ayudar a los animales,
-            aportar tu gran granito de arena. Como voluntario
-            estarás colaborando en el tiempo que puedas con diferentes actividades: eventos, jornadas de trabajo en el
-            refugio, colectas, rescates y muchísimas cosas más. Ser voluntario en Bigotes es
-            pertenecer a un enorme grupo de gente con tus mismos principios, con tus mismos ideales.</p>
-
-
-        <h3>Para ser Voluntario en Bigotes, solo necesitas:</h3>
-
-        <div id="lista">
-            <ul>
-                <li>Amar a los animales y tener toda la actitud y disposición para ayudar.</li>
-                <li>Avisarnos via email o WhatsApp</li>
-                <li>Necesitamos personas voluntarias que se encarguen de realizar transporte responsable y seguro de
-                    nuestros animales a diferentes sitios</li>
-                <li>Personas voluntarias responsables del seguimiento.</li>
-                <li>Personas voluntarias que puedan escribir y publicar comunicados.</li>
-                <li>Personas voluntarias para ayudar con mesas de información, actividades de recaudación de fondos y
-                    eventos</li>
-                <li>Siempre estamos buscando hogares transitorios que abran sus puertas a los animales en situación de
-                    abandono</li>
-            </ul>
-        </div>
+                <p>Ésta es también tu oportunidad de comenzar a vivir ésta experiencia inigualable que es ayudar a los animales,
+                    aportar tu gran granito de arena. Como voluntario
+                    estarás colaborando en el tiempo que puedas con diferentes actividades: eventos, jornadas de trabajo en el
+                    refugio, colectas, rescates y muchísimas cosas más. Ser voluntario en Bigotes es
+                    pertenecer a un enorme grupo de gente con tus mismos principios, con tus mismos ideales.</p>
 
 
+                <h2>Para ser Voluntario en Bigotes, solo necesitas:</h2>
+
+                <div id="lista">
+                    <ul>
+                        <li>Amar a los animales y tener toda la actitud y disposición para ayudar.</li>
+                        <li>Avisarnos via email o WhatsApp</li>
+                        <li>Necesitamos personas voluntarias que se encarguen de realizar transporte responsable y seguro de
+                            nuestros animales a diferentes sitios</li>
+                        <li>Personas voluntarias responsables del seguimiento.</li>
+                        <li>Personas voluntarias que puedan escribir y publicar comunicados.</li>
+                        <li>Personas voluntarias para ayudar con mesas de información, actividades de recaudación de fondos y
+                            eventos</li>
+                        <li>Siempre estamos buscando hogares transitorios que abran sus puertas a los animales en situación de
+                            abandono</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="caja">
+                <h2>Completa el siguiente formulario para formar parte del voluntariado de Bigotes:</h2><br>
+                <form id="my-form" action="https://formspree.io/f/xoqoyzaj" method="POST">
+                    <label for="nombre_apellido">Nombre y Apellido</label> <br>
+                    <input type="text" class="tipo_text" id="nombre_apellido" name="Nombre y Apellido">
+                    <br><br>
+
+                    <label for="correo">Correo Electronico</label><br>
+                    <input type="email" id="correo" name="Correo Electronico">
+                    <br><br>
+
+                    <label for="telefono">Telefono de contacto</label><br>
+                    <input type="tel" class="tipo_num" id="telefono" name="Telefono">
+                    <br><br>
+
+                    <label for="edad">Edad</label><br>
+                    <input type="tel" class="tipo_num" id="edad" name="Edad">
+                    <br><br>
+
+                    <label for="profecion">Profecion/ A que te dedicas</label><br>
+                    <input type="text" class="tipo_text" id="profecion" name="Profecion/ A que te dedicas">
+                    <br><br>
+
+                    <label for="recidencia">Lugar de Recidencia</label><br>
+                    <input type="text" class="tipo_text" id="recidencia" name="Lugar de Recidencia">
+                    <br><br>
+
+                    <label for="previamente_voluntario">Ha participado previamente como voluntario en una casa de adopcion de animales?</label><br>
+                    <select id="previamente_voluntario" class="tipo_select" name="Ha participado previamente como voluntario en una casa de adopcion de animales?">
+                        <option selected disabled value="">Elige la opcion correcta</option>
+                        <option value="si">Si</option>
+                        <option value="no">No</option>
+                    </select>
+                    <!--<input type="radio"  name="previamente_voluntario" value="si"><b>Si</b>
+                    <input type="radio"  name="previamente_voluntario" value="no"><b>No</b>-->
+                    <br><br>
+
+                    <label for="como_nos_conocio">Como nos conociste?</label><br>
+                    <textarea id="como_nos_conocio" class="tipo_textArea" name="Como nos conociste?" rows="4" cols="50"></textarea>
+                    <br><br>
+
+                    <label for="por_que_se_suma">Por que te gustaria sumarte?</label><br>
+                    <textarea id="por_que_se_suma" class="tipo_textArea" name="Por que te gustaria sumarte?" rows="4" cols="50"></textarea>
+                    <br><br>
+
+                    <label for="como_aporta">Desde donde crees que podrias aportar?</label><br>
+                    <textarea id="como_aporta" class="tipo_textArea" name="Desde donde crees que podrias aportar?" rows="4" cols="50"></textarea>
+                    <br><br>
+
+                    <button type="submit" id="my-form-button">Enviar</button>
+                    <button type="reset">Borrar</button>
+                    <input type="hidden" name="subject" value="Voluntariado" />
+                    <p id="my-form-status"></p>
+                    
+                </form>
+            </div>
+        </section>
     </main>
 
     <footer class="pie">
@@ -58,6 +115,8 @@
 
     </footer>
     <script src="./js/main.js"></script>
+    <script src="./js/formulario.js"></script>
+
 </body>
 
 </html>
