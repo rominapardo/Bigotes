@@ -8,13 +8,25 @@
     font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif'
 }
 
+/* estilo scrollbar*/
+body::-webkit-scrollbar{
+    width: 15px;
+    background: rgba(157, 157, 157, 0.811);
+}
+body::-webkit-scrollbar-thumb{
+    background: rgb(196, 165, 73);
+    border-radius: 20px;
+}
+/* estilo scrollbar*/
+
 .cuerpo {
-    /*background-image: url("/img/pet1.png");*/
+
+    background-image: url("/img/1269810-3-.jpg");
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-
 }
 
 
@@ -22,14 +34,14 @@
     text-align: center;
     font-size: 2vw;
     font-weight: bold;
-    background-color: rgb(185, 162, 91);
+    background-color: rgba(185, 162, 91, 0.9);
 }
 
 
 .b1 {
     padding: 1vw 2vw;
     background: none;
-    border: 0.5vw solid rgb(185, 162, 91);
+    border: 0.5vw /*solid*/ rgba(185, 162, 91, 0.9);
     border-radius: 6px;
     color: black;
     font-size: 1.5vw;
@@ -45,7 +57,9 @@
     border: 4px solid rgb(100, 100, 100);
     transform: scale(0.1);
     color: rgb(100, 100, 100);
-}*/
+
+} */
+
 
 #b3 {
     width: 25vw;
@@ -67,14 +81,30 @@
 .pie {
     font-size: 2vw;
     bottom: 0.5vw;
-    text-align: center;
-    display: flex;
+
+    display:flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
+    color: rgb(194, 194, 194);
+    padding: 10px;
+
+}
+
+.pieTexto{
+    text-shadow: 0 0 10px black;
+    background: rgba(0, 0, 0, 0.21);
+    padding: 5px;
+    border-radius: 20px;
 }
 
 
-
+/*Fondo para que se lean los textos*/
+.fondo{
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    padding: 1%;
+    font-size: 150%;
+}
 
 
 
@@ -83,13 +113,14 @@
 /* tarjeta Donaciones*/
 
 #contenedor{
-    /*height: 1200px;*/
+    width: 80%;
     display: flex;
     flex-direction: row;   /* column , row-reverse,  col-reverse*/
     flex-wrap: wrap;  /* nowrap wrap wrap-reverse*/
-    justify-content: space-around ; /* center flex-start flex-end space-between (entre) space-around (alrededor)*/
+    justify-content: space-evenly ; /* center flex-start flex-end space-between (entre) space-around (alrededor)*/
     align-content: space-around;  /* center flex-end flex-start space-around space-between*/
-    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
 }
 
 
@@ -112,6 +143,7 @@
 #intro{
     text-align: center; /* Centra el contenido de la página horizontalmente */
     margin: 0 auto; /* Centra el cuerpo de la página en el centro del viewport */
+    margin-top: 2rem;
     max-width: 80%; /* Ancho máximo del contenido */
     padding: 20px 20px; /* Márgenes en los lados derecho e izquierdo */
 }
@@ -121,28 +153,32 @@
 }
 
 
-
 /* tarjeta de adopcion*/
 #cardAdop{
-    width: 250px;
+    width: 300px;
     padding: 0px;
     border: 1px solid black;
-    
-    border-radius: 5px;
+    border-radius:0 0 10px 10px;
     margin-top: 5px;
+    text-align: center;
+    background-color:  rgba(185, 162, 91,0.7);
+
 }
 
 .imagencardAdop{
     width: 100%;
 }
 
-#cardAdop :hover{
+
+#cardAdop:hover{
     animation: pulse;   
     animation-duration: 4s;
 }
-
-#formularioAdop{
-    padding: 50px;
+.c3{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: stretch;
 }
 
 
@@ -155,6 +191,80 @@
     align-items: center;
 }
 
+
+/*Formilario*/
+label, button{
+    font-weight:bold;
+    font-size: 110%;
+}
+button:hover{
+    cursor:pointer;
+}
+
+input, textarea, button, select{
+    max-width: 90%;
+    min-width: none;
+    padding: 17px 35px;
+    background-color: rgba(185, 162, 91,0.7);
+    border-radius: 10px;
+    margin: 15px;
+    border: 1px solid #424242;
+    color: #3f3f3f;
+    text-align: center ;
+}
+
+.caja h2{
+    font-size: 200%;
+    text-align: center;
+}
+.caja p{
+    font-size: 150%;
+}
+.caja ul{
+    font-size: 150%;
+}
+.caja small{
+    text-align: center;
+    max-width: 20%;
+}
+
+.caja{
+    width: 650px;
+    max-width: 80%;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 8%;
+    margin-top: 2rem;
+}
+form{
+    text-align: center;
+    font-size: 130%;
+}
+.c2{
+    width: 80%;
+}
+
+.flex-container{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+    
+}
+
+/* alertas validacion*/
+.input-error{
+    border: solid 1px red;
+    box-shadow: 0 0 5px red;
+}
+
+.error{
+    font-weight: bold;
+    color: red;
+}
+/* alertas validacion*/
+=======
 .row::after {
     content: "";
     clear: both;
@@ -387,4 +497,4 @@
       left: 0;
     }
   }
-  
+
