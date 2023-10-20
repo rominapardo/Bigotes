@@ -5,7 +5,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif'
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
 }
 
 /* estilo scrollbar*/
@@ -32,14 +32,14 @@ body::-webkit-scrollbar-thumb{
 
 .b2 {
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: bold;
     background-color: rgba(185, 162, 91, 0.9);
 }
 
 
 .b1 {
-    padding: 1vw 2vw;
+    padding: 1vw 1vw;
     background: none;
     border: 0.5vw /*solid*/ rgba(185, 162, 91, 0.9);
     border-radius: 6px;
@@ -48,7 +48,7 @@ body::-webkit-scrollbar-thumb{
     cursor: pointer;
     transition: all 0.5s;
     text-decoration: none;
-    margin: 1vw;
+    margin: 0.5vw;
     display:  inline-block;
 }
 
@@ -68,6 +68,8 @@ body::-webkit-scrollbar-thumb{
     margin: 10vw;
     text-align: center
 }
+
+.b4{font-size: 1.25vw;}
 
 .pie img {
     width: 8vw;
