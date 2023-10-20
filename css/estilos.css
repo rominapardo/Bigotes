@@ -51,6 +51,8 @@ body::-webkit-scrollbar-thumb{
     margin: 0.5vw;
     display:  inline-block;
 }
+
+/* Subrayado animado */
 .b1::after {
   content: "";
   display: block;
@@ -64,13 +66,8 @@ body::-webkit-scrollbar-thumb{
 .b1:hover::after {
   transform: scale(1,1);
 }
-/*.b1:hover {
-    box-shadow: 0 0 0 5px rgb(185, 162, 91), 0 0 0 10px rgb(100, 100, 100);
-    border: 4px solid rgb(100, 100, 100);
-    transform: scale(0.1);
-    color: rgb(100, 100, 100);
+/* Subrayado animado */
 
-} */
 
 
 #b3 {
