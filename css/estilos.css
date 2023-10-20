@@ -242,7 +242,7 @@ input, textarea, button, select{
     max-width: 80%;
     background: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
-    padding: 8%;
+    padding: 20px 20px;
     margin-top: 2rem;
 }
 form{
@@ -251,6 +251,7 @@ form{
 }
 .c2{
     width: 80%;
+    text-align: center;
 }
 
 .flex-container{
