@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // desplego lista de pets desde la base
 function fetchPets() {
     const timestamp = new Date().getTime();
-    fetch(`http://localhost:5000/pets?timestamp=${timestamp}`)
+    fetch(`https://rfpardo.pythonanywhere.com/pets?timestamp=${timestamp}`)
         .then(response => response.json())
         .then(pets => {
             const petsTable = document.getElementById("petsTable");
@@ -89,7 +89,7 @@ function addPet() {
     });
 
 console.log("petData:", petData);
-    fetch("http://localhost:5000/pets", {
+    fetch("https://rfpardo.pythonanywhere.com/pets", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //Funcion para borrar la mascota (por id))
 function deletePet(id) {
-    fetch(`http://localhost:5000/pets/${id}`, {
+    fetch(`https://rfpardo.pythonanywhere.com/pets/${id}`, {
         method: "DELETE",
     })
         .then(response => {
