@@ -508,3 +508,37 @@ form{
     }
   }
 
+/*css de pets*/
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#pets{
+  flex-basis: 45%; /* Adjust as needed */
+  background-color: rgba(255, 255, 255, 0.7); /* Adjust the last value (0.8) for transparency */
+  padding: 20px;
+}
+
+#petsTable {
+  width: 100%;
+}
+
+#petsTable th, #petsTable td {
+  font-size: 90%;
+  padding: 1%;
+  text-align: center;
+}
+
+#petImage {
+  max-width: 100%; /* Ensure the image doesn't overflow its container */
+}
+
+.deleteButton {
+  width: auto; /* Adjust as needed */
+  font-size: 1vw; /* Adjust as needed */
+  height: auto; /* Adjust as needed */
+  text-align: center;
+  overflow: hidden; /* Ensures text doesn't overflow */
+}

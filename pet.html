@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bigotes - Pets</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="shortcut icon" href="./img/cat-whiskers.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+</head>
+
+<body class="cuerpo">
+    <header class="b2">
+        <!-- Dynamic header content will be added by main.js -->
+    </header>
+
+    <main>
+     <section class="flex-container">
+        <div class="caja">
+            <form id="petForm">
+                <label for="especie">Especie:</label><br>
+                <input type="text" id="especie" name="especie" required>
+                <br><br>
+
+                <label for="nombre"> Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required>
+                <br><br>
+
+
+                <label for="sexo">Sexo:</label><br>
+                <select id="sexo" class="tipo_select" name="sexo" required>
+                    <option selected disabled value="">Elige la opcion correcta</option>
+                    <option value="F">F</option>
+                    <option value="M">M</option>
+                </select>
+                <br><br>
+                <label for="si_gatos">Se lleva bien con Gatos:</label><br>
+                <select id="si_gatos" class="tipo_select" name="si_gatos">
+                <option selected disabled value="">Elige la opcion correcta</option>
+                <option value="si">SI</option>
+                <option value="no">NO</option>
+                </select>
+                <br><br>
+                <label for="si_perros">Se lleva bien con Perros:</label><br>
+                <select id="si_perros" class="tipo_select" name="si_perros">
+                <option selected disabled value="">Elige la opcion correcta</option>
+                <option value="si">SI</option>
+                <option value="no">NO</option>
+                </select>
+                <br><br>
+                <label for="si_ninos">Se lleva bien con Niños:</label><br>
+                <select id="si_ninos" class="tipo_select" name="si_ninos">
+                <option selected disabled value="">Elige la opcion correcta</option>
+                <option value="si">SI</option>
+                <option value="no">NO</option>
+                </select>
+                <br><br>
+                <label for="nacimiento">Fecha de Nacimiento:</label><br>
+                <input type="date" id="nacimiento" name="nacimiento" placeholder="d/m/Y" required>
+                <br><br>
+                <label for="perfil">Perfil:</label><br>
+                <input type="text" id="perfil" name="perfil" required>
+                <br><br>
+                <label for="diagnostico">Diagnóstico</label><br>
+                    <textarea id="diagnostico" class="tipo_textArea" name="diagnostico" rows="2" cols="50"></textarea>
+                    <br><br>
+                <label for="ingreso">Fecha de Ingreso:</label><br>
+                <input type="date" id="ingreso" name="ingreso" placeholder="d/m/Y" required>
+                <br><br>
+                <label for="foto">Foto:</label><br>
+                <input type="text" id="foto" name="foto" required pattern="./img/.+">
+                <br><br>
+
+
+                <button type="submit">Agregar Mascota</button>
+            </form>
+            </div>
+            <div class="caja">
+            <div id="pets">
+                <table id="petsTable"></table>
+                <button id="fetchPetsButton">Consultar</button>
+            </div>
+        </div>
+    </div>
+     </section>
+    </main>
+
+    <footer class="pie">
+        <!-- Dynamic footer content will be added by main.js -->
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/pets.js"></script>
+    
+</body>
+
+</html>
